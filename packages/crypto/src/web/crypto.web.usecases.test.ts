@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest';
-import { base64UrlToBuffer, bufferToBase64Url } from './crypto.web.models';
+import { base64UrlToBuffer, bufferToBase64Url } from './crypto.web.usecases';
 
 describe('crypto models', () => {
   describe('bufferToBase64Url', () => {
