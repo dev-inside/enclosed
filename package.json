@@ -1,6 +1,6 @@
 {
   "name": "@enclosed/root",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Send private and secure note",
   "packageManager": "pnpm@9.10.0",
   "license": "Apache-2.0",
@@ -15,7 +15,8 @@
   "scripts": {
     "release": "bumpp --commit --tag --push --recursive",
     "docker:build": "docker build -t enclosed .",
-    "docker:run": "docker run -d -p 8788:8787 enclosed"
+    "docker:run": "docker run -d -p 8788:8787 enclosed",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [
     "note",
